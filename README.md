@@ -42,3 +42,10 @@ abbcccdddd
 test | `정규식.test(문자열)` | 일치 여부 (Boolean) 반환
 match | `문자열.match(정규식)` | 일치하는 문자의 배열(Array)
 replace | `문자열.replace(정규식, 대체문자)` | 일치하는 문자를 대체
+
+## 플래그(옵션)
+
+패턴 | 설명
+-- | --
+^ab | 줄(Line) 시작에 있는 ab와 일치
+ab$ | 줄(Line) 끝에 있는 ab와 일치
